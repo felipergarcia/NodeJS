@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <table>
+            <tr>
+                <td>ID Produto</td>
+                <td>Descrição</td>
+                <td>Valor</td>
+                <td>Grupo</td>
+            </tr>
+            <%for(var i=0;i<lista.length;i++) {%>
+                <tr>
+                    <td><%=lista[i].IDPRODUTO%></td>
+                    <td><%=lista[i].DESCRICAOPRODUTO%></td>
+                    <td><%=lista[i].VALOR%></td>
+                    <td><%=lista[i].GRUPOPRODUTOS%></td>
+                </tr>
+            <%}%>
+            <tr>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <table>
+            <tr>
+                <td>ID Pessoa</td>
+                <td>Nome</td>
+                <td>CPF</td>
+                <td>RG</td>
+            </tr>
+            <%for(var i=0;i<lista.length;i++) {%>
+                <tr>
+                    <td><%=lista[i].idpessoa%></td>
+                    <td><%=lista[i].nome%></td>
+                    <td><%=lista[i].cpf%></td>
+                    <td><%=lista[i].rg%></td>
+                </tr>
+            <%}%>
+            <tr>
+            </tr>
+        </table>
+    </body>
+</html>
